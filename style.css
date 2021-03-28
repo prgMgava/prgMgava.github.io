@@ -184,8 +184,8 @@ footer nav .redesocial li a img{
     width: 45px;
     transition: .3s;
 }
-footer nav .redesocial li a img:hover{
-    width: 60px;
+footer nav .redesocial li a:hover img{
+    transform: scale(1.2) translateY(-10px);
 }
 
 
@@ -195,7 +195,7 @@ input{
 }
 label{
     position: absolute;
-    top: 30px;
+    top: 7px;
     right: 30px;
     width: 52px;
     height: 30px;
@@ -313,10 +313,13 @@ label span{
     }
     footer nav .redesocial{
         display: flex;
+        padding-top: 37px;
     }
     footer nav .redesocial li{
         margin: 0 20px;
     }
+    label{
+        top: 30px;
 }
 
 @media only screen and (min-width: 991px){
